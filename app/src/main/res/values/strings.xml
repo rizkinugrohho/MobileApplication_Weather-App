@@ -9,7 +9,7 @@
     <string name="very_poor">Very Poor</string>
     <string name="sunrise">sunrise</string>
     <string name="max_temp">Max temp</string>
-    <string name="feels_like">Feels like</string>
+    <string name="feels_like">RealFeel</string>
     <string name="min_temp">Min temp</string>
     <string name="air_quality">Air Quality</string>
     <string name="perfect">perfect</string>

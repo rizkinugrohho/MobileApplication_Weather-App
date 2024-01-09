@@ -215,7 +215,7 @@ class MainActivity : AppCompatActivity() {
                         tvWind.text = "${ data.wind.speed.toString() } KM/H"
                         tvLocation.text = "${data.name}\n${data.sys.country}"
                         tvTemp.text = "${data.main.temp.toInt()}°C"
-                        tvFeelsLike.text = "Feels like: ${data.main.feels_like.toInt()}°C"
+                        tvFeelsLike.text = "RealFeel: ${data.main.feels_like.toInt()}°C"
                         tvMinTemp.text = "Min temp: ${data.main.temp_min.toInt()}°C"
                         tvMaxTemp.text = "Max temp: ${data.main.temp_max.toInt()}°C"
                         tvHumidity.text = "${data.main.humidity}%"
